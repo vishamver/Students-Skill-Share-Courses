@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Courses Section */
+  .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 500px;
+  }
+  
+  .course-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .course-card h3 {
+    margin: 1rem 0;
+  }
+  
+  /* Certificate Templates Section */
+#certificate-templates {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the section */
+  }
+  
+  #certificate-templates h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for templates (single-column layout) */
+  .templates-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  /* Individual template cards */
+  .template-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 1100px; /* Set card width */
+    background-color: #fff; /* Simple white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Template images */
+  .template-card img {
+    width: 100%; /* Full width */
+    height: 625px; /* Fixed height */
+    border-radius: 10px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensure the image is scaled properly */
+  }
+  
